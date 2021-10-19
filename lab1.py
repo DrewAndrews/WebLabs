@@ -10,7 +10,7 @@ def three_lists(numbers):
 def get_reversed(number):
 	if number > 0:
 		return str(number)[::-1].strip("0")
-	return f"-{str(abs(number))[::-1].strip("0")}"
+	return f"-{str(abs(number))[::-1].strip('0')}"
 
 def root_by_n_pow(x, n):
 	x0 = 1
@@ -57,9 +57,4 @@ count_of_returns = 3
 def another_func():
 	return "String"
 
-another_func()
-another_func()
-another_func()
-another_func()
-another_func()
-another_func()
+print(is_prime(123456))
